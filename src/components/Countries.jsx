@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import styles from './Countries.module.css';
+import './Countries.css';
 import CountryCard from "./CountryCard";
 
 export default function Flags(){
@@ -39,16 +39,16 @@ export default function Flags(){
 
     return(
         <div>
-            <div className={styles.search}>
+            <div className="search">
             <input
-                className={styles.bar}
+                className="bar"
                 type="text"
                 placeholder="Search for countries..."
                 value={searchQuery}
                 onChange={handleSearchChange}
                 />
             </div>
-            <div className={styles.FlagsGrid}>
+            <div className="FlagsGrid">
                
 
                 {filteredData.length > 0 ? (

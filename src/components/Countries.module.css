@@ -1,0 +1,17 @@
+.FlagsGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search{
+    background-color: gainsboro;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar{
+    height: 30px;
+    width: 600px;
+}
